@@ -1,0 +1,21 @@
+#title{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.bg-custom-green{
+    background-color: #489e37;
+}
+
+.service_box .fa{
+    color: #489e37;
+}
+
+.service_box h2{
+    font-weight: bold;
+}
+
+.service_box:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}

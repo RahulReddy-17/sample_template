@@ -1,0 +1,184 @@
+.ribbon{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #333;
+    padding: 10px 20px 0px 150px;
+}
+
+.ribbon_items{
+    color: rgb(219, 218, 218);
+    font-size: 14px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+
+#space{
+    flex-grow: 1;
+}
+
+.ribbon_images{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+}
+
+#logo{
+    height: 50px;
+    margin: 10px 100px 10px 50px;
+    color: #489e37;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header_items{
+    margin: 0px 20px 0px 20px;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+}
+
+.header_items:hover{
+    color: #489e37;
+}
+
+.custom_container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: #f4f4f4;
+    height: 550px;
+    padding: 20px 100px 20px 100px;
+    align-items: center;
+}
+
+#content{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+    width: 400px;
+    height: 200px;
+    font-weight: normal;
+
+}
+
+#shoes_image{
+    width: 400px;
+    height: 400px;
+}
+
+#text_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#title{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+
+.categories{
+    text-align: center;
+    margin-top: 40px;
+    background-color: white;
+    padding: 10px 100px 20px 100px;
+}
+
+#categories_description{
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px; 
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 40px;   
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item_image{
+    width: 200px;
+    height: 200px;
+}
+
+.item_name{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.item_buy{
+    font-size: 16px;
+    color: white;
+    background-color: #489e37;
+    margin-top: 5px;
+
+}
+
+.footer{
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_section{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    text-align:left;
+    width: 200px;
+}   
+
+.footer_title{
+    font-size: 32px;
+    color: #f4f4f4;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer_content{
+    font-size:18px;
+    color:#f4f4f4;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.footer_content:hover{
+    color:#489e37;
+}
+
+.divider{
+    border-top: 1px solid #aaa2a2;
+    color:#666;
+    background-color:black;
+    height:30px;
+    padding-top:10px;
+    padding-left:20px;
+}
+
